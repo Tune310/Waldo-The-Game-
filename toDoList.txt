@@ -1,0 +1,22 @@
+WHAT TO DO ~~~~~~~~~~
+
+KISS: KEEP IT SIMPLE DUMB ASS !!
+
+1.When I click the play button I need it to - 
+
+- put a random image in each div
+
+-have waldo appear in only one random div
+ 
+-make waldo = if clicked generate next game else = Game Over
+
+I want jQuery to spit me a out a random div so I can insert an image in it when I click play
+
+
+****** declare each pic as a variable with an img src
+
+and make sure the pics array is linking with the variables
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+set up eventListeners if you click on the right box with waldo you get a point, else false

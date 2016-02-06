@@ -1,0 +1,231 @@
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.lizardKing {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  background-image: url('images/lizardKing.jpg'); 
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+#one {
+	background-size: 100%;
+}
+
+#two {
+	background-size: 100%;
+}
+
+#three {
+	background-size: 100%;
+}
+
+#four {
+	background-size: 100%;
+}
+
+#five {
+	background-size: 100%;
+	background-image: url('images/waldo.jpg'); 
+}
+
+#six {
+	background-size: 100%;
+}
+
+#seven {
+	background-size: 100%;
+}
+
+#eight {
+	background-size: 100%;
+}
+
+#nine {
+	background-size: 100%;
+}
+
+body {
+	display: block;
+	max-width: 1200px;
+	max-height: 1000px;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+
+}
+
+header {
+	font-family: 'Pacifico', cursive;
+	font-weight: 550;
+	font-size: 48px;
+}
+
+div#container { 
+	width: 600px;
+	height:1000px;
+	border: 2px solid black;
+	/*float: left;*/
+	background-image: url('images/beach.jpg');
+	background-size: 100%;
+	margin-left: 300px;
+
+}
+
+section#middle {
+	width: 600px;
+	display: block;
+	position: relative;
+}
+
+section#bottom {
+	width: 600px;
+	display: block;
+	position: relative;
+}
+
+section#middle div.color {
+	width: 150px;
+	height: 100px;
+	/*border: 2px solid blue;*/
+	float: left;
+	
+}
+
+section#bottom div.color {
+	width: 150px;
+	height: 100px;
+	/*border: 2px solid black;*/
+	float: left
+}
+
+div.color {
+	/*background-image: url('images/waldo.jpg');*/
+	/*background-size: 100%;*/
+	/*height: 100%;*/
+}
+
+img {
+	width: inherit;
+	height: inherit;
+}
+
+button#play {
+	border-radius: 5px;
+	border: 1px solid black;
+	font-family: 'Jacques Francois Shadow', cursive;
+	font-size: 18px;
+	color: lime;
+	outline: none;
+}
+
+button#play:hover {
+	cursor: pointer;
+}
+
+.box {
+	border: 2px solid blue;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+
+.waldo {
+	background-image: url('images/waldo.jpg');
+	background-size: 100%;
+}
+
+.decoyWaldo {
+	background-image: url('images/decoyWaldo.jpg');
+	background-size: 100%;
+}
+
+.cartman {
+	background-image: url('images/cartman.jpg');
+	background-size: 100%;
+}
+
+.hankey {
+	background-image: url('images/hankey.jpg');
+	background-size: 100%;
+}
+
+.santa {
+	background-image: url('images/santa.jpg');
+	background-size: 100%;
+}
+.jesusSanta {
+	background-image: url('images/jesusSanta.jpg');
+	background-size: 100%;
+}
+
+.katyPerry {
+	background-image: url('images/katyPerry.jpg');
+	background-size: 100%;
+}
+
+.theGrinch {
+	background-image: url('images/theGrinch.jpg');
+	background-size: 100%
+}
+
+.jenniferLawrence {
+	background-image: url('images/jenniferLawrence.jpg');
+	background-size: 100%;
+}
+
+.red {
+	background-color: red;
+	background-size: 100%;
+}
+
+.blue {
+	background-color: blue;
+	background-size: 100%;
+}
+
+.green {
+	background-color: green;
+	background-size: 100%;
+}
+
+.yellow {
+	background-color: yellow;
+	background-size: 100%;
+}
+
+.orange {
+	background-color: orange;
+	background-size: 100%;
+}
